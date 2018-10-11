@@ -18,7 +18,7 @@ namespace WPFMentorshipProject
 
         public PlayerPosition PlayerPosition { get; set; }
 
-        public int Age { get; set; }
+        public DateTime BirthDay { get; set; }
 
         public Country PlayerNationality { get; set; }
 
