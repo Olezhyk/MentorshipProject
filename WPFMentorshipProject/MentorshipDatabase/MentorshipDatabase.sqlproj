@@ -58,4 +58,10 @@
   <ItemGroup>
     <Folder Include="Properties" />
   </ItemGroup>
+  <ItemGroup>
+    <Build Include="Federation.sql" />
+    <Build Include="Team.sql" />
+    <Build Include="Player.sql" />
+    <Build Include="PlayerPosition.sql" />
+  </ItemGroup>
 </Project>

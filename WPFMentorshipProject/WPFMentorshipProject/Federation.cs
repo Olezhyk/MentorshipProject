@@ -10,6 +10,6 @@ namespace WPFMentorshipProject
     {
         public Guid Id { get; set; }
 
-        public string FederationName { get; set; }
+        public Country FederationName { get; set; }
     }
 }
