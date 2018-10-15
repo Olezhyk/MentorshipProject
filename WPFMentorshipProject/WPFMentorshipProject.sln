@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestMentorshipProject",
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "MentorshipDatabase", "MentorshipDatabase\MentorshipDatabase.sqlproj", "{7C027899-0033-4354-BA0E-79B2A37A620B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MentorshipProjectContracts", "MentorshipProjectContracts\MentorshipProjectContracts.csproj", "{87602071-C11D-4EED-ACA5-B6F0E05C9FDC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +31,10 @@ Global
 		{7C027899-0033-4354-BA0E-79B2A37A620B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7C027899-0033-4354-BA0E-79B2A37A620B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{7C027899-0033-4354-BA0E-79B2A37A620B}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{87602071-C11D-4EED-ACA5-B6F0E05C9FDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87602071-C11D-4EED-ACA5-B6F0E05C9FDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87602071-C11D-4EED-ACA5-B6F0E05C9FDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87602071-C11D-4EED-ACA5-B6F0E05C9FDC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

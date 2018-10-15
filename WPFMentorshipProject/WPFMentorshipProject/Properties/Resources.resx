@@ -114,4 +114,211 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="ArgentineNationality" xml:space="preserve">
+    <value>Argentine</value>
+  </data>
+  <data name="AustrianNationality" xml:space="preserve">
+    <value>Austrian</value>
+  </data>
+  <data name="AustralianNationality" xml:space="preserve">
+    <value>Australian</value>
+  </data>
+  <data name="BelarusianNationality" xml:space="preserve">
+    <value>Belarusian</value>
+  </data>
+  <data name="BelgianNationality" xml:space="preserve">
+    <value>Belgian</value>
+  </data>
+  <data name="BolivianNationality" xml:space="preserve">
+    <value>Bolivian</value>
+  </data>
+  <data name="BrazilianNationality" xml:space="preserve">
+    <value>Brazilian</value>
+  </data>
+  <data name="BulgarianNationality" xml:space="preserve">
+    <value>Bulgarian</value>
+  </data>
+  <data name="ChineseNationality" xml:space="preserve">
+    <value>Chinese</value>
+  </data>
+  <data name="ColombianNationality" xml:space="preserve">
+    <value>Colombian</value>
+  </data>
+  <data name="CostaRicanNationality" xml:space="preserve">
+    <value>Costa Rican</value>
+  </data>
+  <data name="CroatianNationality" xml:space="preserve">
+    <value>Croatian</value>
+  </data>
+  <data name="CzechNationality" xml:space="preserve">
+    <value>Czech</value>
+  </data>
+  <data name="DanishNationality" xml:space="preserve">
+    <value>Danish</value>
+  </data>
+  <data name="EnglishNationality" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="FrenchNationality" xml:space="preserve">
+    <value>French</value>
+  </data>
+  <data name="GermanNationality" xml:space="preserve">
+    <value>German</value>
+  </data>
+  <data name="GreekNationality" xml:space="preserve">
+    <value>Greek</value>
+  </data>
+  <data name="DutchNationality" xml:space="preserve">
+    <value>Dutch</value>
+  </data>
+  <data name="HungarianNationality" xml:space="preserve">
+    <value>Hungarian</value>
+  </data>
+  <data name="IcelandicNationality" xml:space="preserve">
+    <value>Icelandic</value>
+  </data>
+  <data name="IrishNationality" xml:space="preserve">
+    <value>Irish</value>
+  </data>
+  <data name="ItalianNationality" xml:space="preserve">
+    <value>Italian</value>
+  </data>
+  <data name="JamaicanNationality" xml:space="preserve">
+    <value>Jamaican</value>
+  </data>
+  <data name="JapaneseNationality" xml:space="preserve">
+    <value>Japanese</value>
+  </data>
+  <data name="LatvianNationality" xml:space="preserve">
+    <value>Latvian</value>
+  </data>
+  <data name="LithuanianNationality" xml:space="preserve">
+    <value>Lithuanian</value>
+  </data>
+  <data name="MexicanNationality" xml:space="preserve">
+    <value>Mexican</value>
+  </data>
+  <data name="NigerianNationality" xml:space="preserve">
+    <value>Nigerian</value>
+  </data>
+  <data name="NorwegianNationality" xml:space="preserve">
+    <value>Norwegian</value>
+  </data>
+  <data name="PolishNationality" xml:space="preserve">
+    <value>Polish</value>
+  </data>
+  <data name="PortugueseNationality" xml:space="preserve">
+    <value>Portuguese</value>
+  </data>
+  <data name="RomanianNationality" xml:space="preserve">
+    <value>Romanian</value>
+  </data>
+  <data name="ScottishNationality" xml:space="preserve">
+    <value>Scottish</value>
+  </data>
+  <data name="SlovakNationality" xml:space="preserve">
+    <value>Slovak</value>
+  </data>
+  <data name="SouthAfricanNationality" xml:space="preserve">
+    <value>South African</value>
+  </data>
+  <data name="SpanishNationality" xml:space="preserve">
+    <value>Spanish</value>
+  </data>
+  <data name="SwedishNationality" xml:space="preserve">
+    <value>Swedish</value>
+  </data>
+  <data name="SwissNationality" xml:space="preserve">
+    <value>Swiss</value>
+  </data>
+  <data name="TurkishNationality" xml:space="preserve">
+    <value>Turkish</value>
+  </data>
+  <data name="UkranianNationality" xml:space="preserve">
+    <value>Ukranian</value>
+  </data>
+  <data name="AmericanNationality" xml:space="preserve">
+    <value>American</value>
+  </data>
+  <data name="UruguayanNationality" xml:space="preserve">
+    <value>Uruguayan</value>
+  </data>
+  <data name="WelshNationality" xml:space="preserve">
+    <value>Welsh</value>
+  </data>
+    <data name="ArgentinaFederation" xml:space="preserve">
+    <value>Football Federation Of Argentina</value>
+  </data>
+    <data name="BrazilFederation" xml:space="preserve">
+    <value>Football Federation Of Brazil</value>
+  </data>
+    <data name="EnglandFederation" xml:space="preserve">
+    <value>Football Federation Of England</value>
+  </data>
+    <data name="FranceFederation" xml:space="preserve">
+    <value>Football Federation Of France</value>
+  </data>
+    <data name="GermanyFederation" xml:space="preserve">
+    <value>Football Federation Of Germany</value>
+  </data>
+    <data name="SpainFederation" xml:space="preserve">
+    <value>Football Federation Of Spain</value>
+  </data>
+    <data name="Portugal Federation" xml:space="preserve">
+    <value>Football Federation Of Portugal</value>
+  </data>
+    <data name="PolandFederation" xml:space="preserve">
+    <value>Football Federation Of Poland</value>
+  </data>
+    <data name="Italy Federation" xml:space="preserve">
+    <value>Football Federation Of Italy</value>
+  </data>
+    <data name="HollandFederation" xml:space="preserve">
+    <value>Football Federation Of Holland</value>
+  </data>
+    <data name="UkraineFederation" xml:space="preserve">
+    <value>Football Federation Of Ukraine</value>
+  </data>
+    <data name="TurkeyFederation" xml:space="preserve">
+    <value>Football Federation Of Turkey</value>
+  </data>
+    <data name="ScotlandFederation" xml:space="preserve">
+    <value>Football Federation Of Scotland</value>
+  </data>
+    <data name="Goalkeeper" xml:space="preserve">
+    <value>Goalkeeper</value>
+  </data>
+    <data name="LeftDefender" xml:space="preserve">
+    <value>Left Defender</value>
+  </data>
+    <data name="LeftCenterDefender" xml:space="preserve">
+    <value>Left Center Defender</value>
+  </data>
+    <data name="RightCenterDefender" xml:space="preserve">
+    <value>Right Center Defender</value>
+  </data>
+    <data name="RightDefender" xml:space="preserve">
+    <value>Right Defender</value>
+  </data>
+    <data name="LeftMiddleForward" xml:space="preserve">
+    <value>Left Middle Forward</value>
+  </data>
+    <data name="LeftCenterMiddleForward" xml:space="preserve">
+    <value>Left Center Middle Forward</value>
+  </data>
+    <data name="RightCenterMiddleForward" xml:space="preserve">
+    <value>Right Center Middle Forward</value>
+  </data>
+    <data name="RightMiddleForward" xml:space="preserve">
+    <value>Right Middle Forward</value>
+  </data>
+    <data name="LeftForward" xml:space="preserve">
+    <value>Left Forward</value>
+  </data>
+    <data name="RightForward" xml:space="preserve">
+    <value>Right Forward</value>
+  </data>
+    <data name="none" xml:space="preserve">
+    <value>none</value>
+  </data>
 </root>

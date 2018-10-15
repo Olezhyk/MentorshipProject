@@ -63,5 +63,6 @@
     <Build Include="Team.sql" />
     <Build Include="Player.sql" />
     <Build Include="PlayerPosition.sql" />
+    <Build Include="Country.sql" />
   </ItemGroup>
 </Project>
