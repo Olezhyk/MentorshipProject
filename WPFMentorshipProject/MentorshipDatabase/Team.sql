@@ -1,4 +1,7 @@
 ﻿CREATE TABLE [dbo].[Team]
 (
-	[Id] INT NOT NULL PRIMARY KEY
+	[Id] UNIQUEIDENTIFIER NOT NULL PRIMARY KEY, 
+    [FederationId] TINYINT NOT NULL, 
+    [TeamName] CHAR(50) NOT NULL, 
+    [Budget] DECIMAL NOT NULL
 )

@@ -46,7 +46,7 @@
     
     mimetype: application/x-microsoft.net.object.binary.base64
     value   : The object must be serialized with 
-            : System.Serialization.Formatters.Binary.BinaryFormatter
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
             : and then encoded with base64 encoding.
     
     mimetype: application/x-microsoft.net.object.soap.base64
@@ -60,6 +60,7 @@
             : and then encoded with base64 encoding.
     -->
   <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
     <xsd:element name="root" msdata:IsDataSet="true">
       <xsd:complexType>
         <xsd:choice maxOccurs="unbounded">
@@ -68,9 +69,10 @@
               <xsd:sequence>
                 <xsd:element name="value" type="xsd:string" minOccurs="0" />
               </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="name" use="required" type="xsd:string" />
               <xsd:attribute name="type" type="xsd:string" />
               <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="assembly">
@@ -85,9 +87,10 @@
                 <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
                 <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
               </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
               <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
               <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="resheader">
@@ -109,10 +112,10 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="ArgentineNationality" xml:space="preserve">
     <value>Argentine</value>
@@ -246,79 +249,79 @@
   <data name="WelshNationality" xml:space="preserve">
     <value>Welsh</value>
   </data>
-    <data name="ArgentinaFederation" xml:space="preserve">
+  <data name="ArgentinaFederation" xml:space="preserve">
     <value>Football Federation Of Argentina</value>
   </data>
-    <data name="BrazilFederation" xml:space="preserve">
+  <data name="BrazilFederation" xml:space="preserve">
     <value>Football Federation Of Brazil</value>
   </data>
-    <data name="EnglandFederation" xml:space="preserve">
+  <data name="EnglandFederation" xml:space="preserve">
     <value>Football Federation Of England</value>
   </data>
-    <data name="FranceFederation" xml:space="preserve">
+  <data name="FranceFederation" xml:space="preserve">
     <value>Football Federation Of France</value>
   </data>
-    <data name="GermanyFederation" xml:space="preserve">
+  <data name="GermanyFederation" xml:space="preserve">
     <value>Football Federation Of Germany</value>
   </data>
-    <data name="SpainFederation" xml:space="preserve">
+  <data name="SpainFederation" xml:space="preserve">
     <value>Football Federation Of Spain</value>
   </data>
-    <data name="Portugal Federation" xml:space="preserve">
+  <data name="PortugalFederation" xml:space="preserve">
     <value>Football Federation Of Portugal</value>
   </data>
-    <data name="PolandFederation" xml:space="preserve">
+  <data name="PolandFederation" xml:space="preserve">
     <value>Football Federation Of Poland</value>
   </data>
-    <data name="Italy Federation" xml:space="preserve">
+  <data name="ItalyFederation" xml:space="preserve">
     <value>Football Federation Of Italy</value>
   </data>
-    <data name="HollandFederation" xml:space="preserve">
+  <data name="HollandFederation" xml:space="preserve">
     <value>Football Federation Of Holland</value>
   </data>
-    <data name="UkraineFederation" xml:space="preserve">
+  <data name="UkraineFederation" xml:space="preserve">
     <value>Football Federation Of Ukraine</value>
   </data>
-    <data name="TurkeyFederation" xml:space="preserve">
+  <data name="TurkeyFederation" xml:space="preserve">
     <value>Football Federation Of Turkey</value>
   </data>
-    <data name="ScotlandFederation" xml:space="preserve">
+  <data name="ScotlandFederation" xml:space="preserve">
     <value>Football Federation Of Scotland</value>
   </data>
-    <data name="Goalkeeper" xml:space="preserve">
+  <data name="Goalkeeper" xml:space="preserve">
     <value>Goalkeeper</value>
   </data>
-    <data name="LeftDefender" xml:space="preserve">
+  <data name="LeftDefender" xml:space="preserve">
     <value>Left Defender</value>
   </data>
-    <data name="LeftCenterDefender" xml:space="preserve">
+  <data name="LeftCenterDefender" xml:space="preserve">
     <value>Left Center Defender</value>
   </data>
-    <data name="RightCenterDefender" xml:space="preserve">
+  <data name="RightCenterDefender" xml:space="preserve">
     <value>Right Center Defender</value>
   </data>
-    <data name="RightDefender" xml:space="preserve">
+  <data name="RightDefender" xml:space="preserve">
     <value>Right Defender</value>
   </data>
-    <data name="LeftMiddleForward" xml:space="preserve">
+  <data name="LeftMiddleForward" xml:space="preserve">
     <value>Left Middle Forward</value>
   </data>
-    <data name="LeftCenterMiddleForward" xml:space="preserve">
+  <data name="LeftCenterMiddleForward" xml:space="preserve">
     <value>Left Center Middle Forward</value>
   </data>
-    <data name="RightCenterMiddleForward" xml:space="preserve">
+  <data name="RightCenterMiddleForward" xml:space="preserve">
     <value>Right Center Middle Forward</value>
   </data>
-    <data name="RightMiddleForward" xml:space="preserve">
+  <data name="RightMiddleForward" xml:space="preserve">
     <value>Right Middle Forward</value>
   </data>
-    <data name="LeftForward" xml:space="preserve">
+  <data name="LeftForward" xml:space="preserve">
     <value>Left Forward</value>
   </data>
-    <data name="RightForward" xml:space="preserve">
+  <data name="RightForward" xml:space="preserve">
     <value>Right Forward</value>
   </data>
-    <data name="none" xml:space="preserve">
+  <data name="none" xml:space="preserve">
     <value>none</value>
   </data>
 </root>

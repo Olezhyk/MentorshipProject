@@ -8,7 +8,7 @@ namespace WPFMentorshipProject
 {
     public class Federation
     {
-        public Guid Id { get; set; }
+        public byte Id { get; set; }
 
         public Country FederationName { get; set; }
     }

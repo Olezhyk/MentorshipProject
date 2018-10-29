@@ -342,9 +342,9 @@ namespace WPFMentorshipProject.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Football Federation Of Italy.
         /// </summary>
-        internal static string Italy_Federation {
+        internal static string ItalyFederation {
             get {
-                return ResourceManager.GetString("Italy Federation", resourceCulture);
+                return ResourceManager.GetString("ItalyFederation", resourceCulture);
             }
         }
         
@@ -486,9 +486,9 @@ namespace WPFMentorshipProject.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Football Federation Of Portugal.
         /// </summary>
-        internal static string Portugal_Federation {
+        internal static string PortugalFederation {
             get {
-                return ResourceManager.GetString("Portugal Federation", resourceCulture);
+                return ResourceManager.GetString("PortugalFederation", resourceCulture);
             }
         }
         

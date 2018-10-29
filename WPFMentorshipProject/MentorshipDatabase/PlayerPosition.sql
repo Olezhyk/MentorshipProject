@@ -1,4 +1,5 @@
 ﻿CREATE TABLE [dbo].[PlayerPosition]
 (
-	[Id] INT NOT NULL PRIMARY KEY
+	[Id] TINYINT NOT NULL PRIMARY KEY, 
+    [PlayerPosition] CHAR(50) NOT NULL
 )

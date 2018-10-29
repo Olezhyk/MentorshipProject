@@ -1,4 +1,5 @@
 ﻿CREATE TABLE [dbo].[Federation]
 (
-	[Id] INT NOT NULL PRIMARY KEY
+	[Id] TINYINT NOT NULL PRIMARY KEY, 
+    [FederationName] CHAR(50) NOT NULL
 )
