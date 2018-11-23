@@ -1,327 +1,327 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
-	Microsoft ResX Schema 
-	
-	Version 2.0
-	
-	The primary goals of this format is to allow a simple XML format 
-	that is mostly human readable. The generation and parsing of the 
-	various data types are done through the TypeConverter classes 
-	associated with the data types.
-	
-	Example:
-	
-	... ado.net/XML headers & schema ...
-	<resheader name="resmimetype">text/microsoft-resx</resheader>
-	<resheader name="version">2.0</resheader>
-	<resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
-	<resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
-	<data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
-	<data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
-	<data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
-		<value>[base64 mime encoded serialized .NET Framework object]</value>
-	</data>
-	<data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-		<value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
-		<comment>This is a comment</comment>
-	</data>
-				
-	There are any number of "resheader" rows that contain simple 
-	name/value pairs.
-	
-	Each data row contains a name, and value. The row also contains a 
-	type or mimetype. Type corresponds to a .NET class that support 
-	text/value conversion through the TypeConverter architecture. 
-	Classes that don't support this are serialized and stored with the 
-	mimetype set.
-	
-	The mimetype is used for serialized objects, and tells the 
-	ResXResourceReader how to depersist the object. This is currently not 
-	extensible. For a given mimetype the value must be set accordingly:
-	
-	Note - application/x-microsoft.net.object.binary.base64 is the format 
-	that the ResXResourceWriter will generate, however the reader can 
-	read any of the formats listed below.
-	
-	mimetype: application/x-microsoft.net.object.binary.base64
-	value   : The object must be serialized with 
-			: System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
-			: and then encoded with base64 encoding.
-	
-	mimetype: application/x-microsoft.net.object.soap.base64
-	value   : The object must be serialized with 
-			: System.Runtime.Serialization.Formatters.Soap.SoapFormatter
-			: and then encoded with base64 encoding.
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
 
-	mimetype: application/x-microsoft.net.object.bytearray.base64
-	value   : The object must be serialized into a byte array 
-			: using a System.ComponentModel.TypeConverter
-			: and then encoded with base64 encoding.
-	-->
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
   <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
-	<xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
-	<xsd:element name="root" msdata:IsDataSet="true">
-	  <xsd:complexType>
-		<xsd:choice maxOccurs="unbounded">
-		  <xsd:element name="metadata">
-			<xsd:complexType>
-			  <xsd:sequence>
-				<xsd:element name="value" type="xsd:string" minOccurs="0" />
-			  </xsd:sequence>
-			  <xsd:attribute name="name" use="required" type="xsd:string" />
-			  <xsd:attribute name="type" type="xsd:string" />
-			  <xsd:attribute name="mimetype" type="xsd:string" />
-			  <xsd:attribute ref="xml:space" />
-			</xsd:complexType>
-		  </xsd:element>
-		  <xsd:element name="assembly">
-			<xsd:complexType>
-			  <xsd:attribute name="alias" type="xsd:string" />
-			  <xsd:attribute name="name" type="xsd:string" />
-			</xsd:complexType>
-		  </xsd:element>
-		  <xsd:element name="data">
-			<xsd:complexType>
-			  <xsd:sequence>
-				<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
-				<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
-			  </xsd:sequence>
-			  <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
-			  <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
-			  <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
-			  <xsd:attribute ref="xml:space" />
-			</xsd:complexType>
-		  </xsd:element>
-		  <xsd:element name="resheader">
-			<xsd:complexType>
-			  <xsd:sequence>
-				<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
-			  </xsd:sequence>
-			  <xsd:attribute name="name" type="xsd:string" use="required" />
-			</xsd:complexType>
-		  </xsd:element>
-		</xsd:choice>
-	  </xsd:complexType>
-	</xsd:element>
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
   </xsd:schema>
   <resheader name="resmimetype">
-	<value>text/microsoft-resx</value>
+    <value>text/microsoft-resx</value>
   </resheader>
   <resheader name="version">
-	<value>2.0</value>
+    <value>2.0</value>
   </resheader>
   <resheader name="reader">
-	<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-	<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="ArgentineNationality" xml:space="preserve">
-	<value>Argentine</value>
+    <value>Argentine</value>
   </data>
   <data name="AustrianNationality" xml:space="preserve">
-	<value>Austrian</value>
+    <value>Austrian</value>
   </data>
   <data name="AustralianNationality" xml:space="preserve">
-	<value>Australian</value>
+    <value>Australian</value>
   </data>
   <data name="BelarusianNationality" xml:space="preserve">
-	<value>Belarusian</value>
+    <value>Belarusian</value>
   </data>
   <data name="BelgianNationality" xml:space="preserve">
-	<value>Belgian</value>
+    <value>Belgian</value>
   </data>
   <data name="BolivianNationality" xml:space="preserve">
-	<value>Bolivian</value>
+    <value>Bolivian</value>
   </data>
   <data name="BrazilianNationality" xml:space="preserve">
-	<value>Brazilian</value>
+    <value>Brazilian</value>
   </data>
   <data name="BulgarianNationality" xml:space="preserve">
-	<value>Bulgarian</value>
+    <value>Bulgarian</value>
   </data>
   <data name="ChineseNationality" xml:space="preserve">
-	<value>Chinese</value>
+    <value>Chinese</value>
   </data>
   <data name="ColombianNationality" xml:space="preserve">
-	<value>Colombian</value>
+    <value>Colombian</value>
   </data>
   <data name="CostaRicanNationality" xml:space="preserve">
-	<value>Costa Rican</value>
+    <value>Costa Rican</value>
   </data>
   <data name="CroatianNationality" xml:space="preserve">
-	<value>Croatian</value>
+    <value>Croatian</value>
   </data>
   <data name="CzechNationality" xml:space="preserve">
-	<value>Czech</value>
+    <value>Czech</value>
   </data>
   <data name="DanishNationality" xml:space="preserve">
-	<value>Danish</value>
+    <value>Danish</value>
   </data>
   <data name="EnglishNationality" xml:space="preserve">
-	<value>English</value>
+    <value>English</value>
   </data>
   <data name="FrenchNationality" xml:space="preserve">
-	<value>French</value>
+    <value>French</value>
   </data>
   <data name="GermanNationality" xml:space="preserve">
-	<value>German</value>
+    <value>German</value>
   </data>
   <data name="GreekNationality" xml:space="preserve">
-	<value>Greek</value>
+    <value>Greek</value>
   </data>
   <data name="DutchNationality" xml:space="preserve">
-	<value>Dutch</value>
+    <value>Dutch</value>
   </data>
   <data name="HungarianNationality" xml:space="preserve">
-	<value>Hungarian</value>
+    <value>Hungarian</value>
   </data>
   <data name="IcelandicNationality" xml:space="preserve">
-	<value>Icelandic</value>
+    <value>Icelandic</value>
   </data>
   <data name="IrishNationality" xml:space="preserve">
-	<value>Irish</value>
+    <value>Irish</value>
   </data>
   <data name="ItalianNationality" xml:space="preserve">
-	<value>Italian</value>
+    <value>Italian</value>
   </data>
   <data name="JamaicanNationality" xml:space="preserve">
-	<value>Jamaican</value>
+    <value>Jamaican</value>
   </data>
   <data name="JapaneseNationality" xml:space="preserve">
-	<value>Japanese</value>
+    <value>Japanese</value>
   </data>
   <data name="LatvianNationality" xml:space="preserve">
-	<value>Latvian</value>
+    <value>Latvian</value>
   </data>
   <data name="LithuanianNationality" xml:space="preserve">
-	<value>Lithuanian</value>
+    <value>Lithuanian</value>
   </data>
   <data name="MexicanNationality" xml:space="preserve">
-	<value>Mexican</value>
+    <value>Mexican</value>
   </data>
   <data name="NigerianNationality" xml:space="preserve">
-	<value>Nigerian</value>
+    <value>Nigerian</value>
   </data>
   <data name="NorwegianNationality" xml:space="preserve">
-	<value>Norwegian</value>
+    <value>Norwegian</value>
   </data>
   <data name="PolishNationality" xml:space="preserve">
-	<value>Polish</value>
+    <value>Polish</value>
   </data>
   <data name="PortugueseNationality" xml:space="preserve">
-	<value>Portuguese</value>
+    <value>Portuguese</value>
   </data>
   <data name="RomanianNationality" xml:space="preserve">
-	<value>Romanian</value>
+    <value>Romanian</value>
   </data>
   <data name="ScottishNationality" xml:space="preserve">
-	<value>Scottish</value>
+    <value>Scottish</value>
   </data>
   <data name="SlovakNationality" xml:space="preserve">
-	<value>Slovak</value>
+    <value>Slovak</value>
   </data>
   <data name="SouthAfricanNationality" xml:space="preserve">
-	<value>South African</value>
+    <value>South African</value>
   </data>
   <data name="SpanishNationality" xml:space="preserve">
-	<value>Spanish</value>
+    <value>Spanish</value>
   </data>
   <data name="SwedishNationality" xml:space="preserve">
-	<value>Swedish</value>
+    <value>Swedish</value>
   </data>
   <data name="SwissNationality" xml:space="preserve">
-	<value>Swiss</value>
+    <value>Swiss</value>
   </data>
   <data name="TurkishNationality" xml:space="preserve">
-	<value>Turkish</value>
+    <value>Turkish</value>
   </data>
   <data name="UkranianNationality" xml:space="preserve">
-	<value>Ukranian</value>
+    <value>Ukranian</value>
   </data>
   <data name="AmericanNationality" xml:space="preserve">
-	<value>American</value>
+    <value>American</value>
   </data>
   <data name="UruguayanNationality" xml:space="preserve">
-	<value>Uruguayan</value>
+    <value>Uruguayan</value>
   </data>
   <data name="WelshNationality" xml:space="preserve">
-	<value>Welsh</value>
+    <value>Welsh</value>
   </data>
   <data name="ArgentinaFederation" xml:space="preserve">
-	<value>Football Federation Of Argentina</value>
+    <value>Football Federation Of Argentina</value>
   </data>
   <data name="BrazilFederation" xml:space="preserve">
-	<value>Football Federation Of Brazil</value>
+    <value>Football Federation Of Brazil</value>
   </data>
   <data name="EnglandFederation" xml:space="preserve">
-	<value>Football Federation Of England</value>
+    <value>Football Federation Of England</value>
   </data>
   <data name="FranceFederation" xml:space="preserve">
-	<value>Football Federation Of France</value>
+    <value>Football Federation Of France</value>
   </data>
   <data name="GermanyFederation" xml:space="preserve">
-	<value>Football Federation Of Germany</value>
+    <value>Football Federation Of Germany</value>
   </data>
   <data name="SpainFederation" xml:space="preserve">
-	<value>Football Federation Of Spain</value>
+    <value>Football Federation Of Spain</value>
   </data>
   <data name="PortugalFederation" xml:space="preserve">
-	<value>Football Federation Of Portugal</value>
+    <value>Football Federation Of Portugal</value>
   </data>
   <data name="PolandFederation" xml:space="preserve">
-	<value>Football Federation Of Poland</value>
+    <value>Football Federation Of Poland</value>
   </data>
   <data name="ItalyFederation" xml:space="preserve">
-	<value>Football Federation Of Italy</value>
+    <value>Football Federation Of Italy</value>
   </data>
   <data name="HollandFederation" xml:space="preserve">
-	<value>Football Federation Of Holland</value>
+    <value>Football Federation Of Holland</value>
   </data>
   <data name="UkraineFederation" xml:space="preserve">
-	<value>Football Federation Of Ukraine</value>
+    <value>Football Federation Of Ukraine</value>
   </data>
   <data name="TurkeyFederation" xml:space="preserve">
-	<value>Football Federation Of Turkey</value>
+    <value>Football Federation Of Turkey</value>
   </data>
   <data name="ScotlandFederation" xml:space="preserve">
-	<value>Football Federation Of Scotland</value>
+    <value>Football Federation Of Scotland</value>
   </data>
   <data name="Goalkeeper" xml:space="preserve">
-	<value>Goalkeeper</value>
+    <value>Goalkeeper</value>
   </data>
   <data name="LeftDefender" xml:space="preserve">
-	<value>Left Defender</value>
+    <value>Left Defender</value>
   </data>
   <data name="LeftCenterDefender" xml:space="preserve">
-	<value>Left Center Defender</value>
+    <value>Left Center Defender</value>
   </data>
   <data name="RightCenterDefender" xml:space="preserve">
-	<value>Right Center Defender</value>
+    <value>Right Center Defender</value>
   </data>
   <data name="RightDefender" xml:space="preserve">
-	<value>Right Defender</value>
+    <value>Right Defender</value>
   </data>
   <data name="LeftMiddleForward" xml:space="preserve">
-	<value>Left Middle Forward</value>
+    <value>Left Middle Forward</value>
   </data>
   <data name="LeftCenterMiddleForward" xml:space="preserve">
-	<value>Left Center Middle Forward</value>
+    <value>Left Center Middle Forward</value>
   </data>
   <data name="RightCenterMiddleForward" xml:space="preserve">
-	<value>Right Center Middle Forward</value>
+    <value>Right Center Middle Forward</value>
   </data>
   <data name="RightMiddleForward" xml:space="preserve">
-	<value>Right Middle Forward</value>
+    <value>Right Middle Forward</value>
   </data>
   <data name="LeftForward" xml:space="preserve">
-	<value>Left Forward</value>
+    <value>Left Forward</value>
   </data>
   <data name="RightForward" xml:space="preserve">
-	<value>Right Forward</value>
+    <value>Right Forward</value>
   </data>
   <data name="none" xml:space="preserve">
-	<value>none</value>
+    <value>none</value>
   </data>
 </root>

@@ -1,9 +1,13 @@
-﻿using System.Data.Entity;
-using MentorshipProjectModels;
+﻿using System;
+using System.Collections.Generic;
+using System.Data.Entity;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace WPFMentorshipProject
 {
-	public class TransferContext : DbContext
+	class TransferContext : DbContext
 	{
 		public TransferContext() : base("DbConnection")
 		{
