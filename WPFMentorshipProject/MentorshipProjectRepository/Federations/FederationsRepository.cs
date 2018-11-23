@@ -18,8 +18,7 @@ namespace MentorshipProjectRepository
 
 		public async Task<MentorshipProjectModels.Federation> GetByIdAsync(byte id)
 		{
-			var t = context.Federations.Where(x => x.Id == id);
-			return await Task<MentorshipProjectModels.Federation>.FromResult(t).; // FirstOrDefaultAsync(x => x.Id == id);
+			return await context.Federations.FirstOrDefaultAsync(x => x.Id == id);
 		}
 
 		public Task<IEnumerable<MentorshipProjectModels.Federation>> GetAllAsync()
