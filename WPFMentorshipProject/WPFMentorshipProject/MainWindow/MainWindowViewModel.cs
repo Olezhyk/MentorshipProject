@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using GalaSoft.MvvmLight;
+using GalaSoft.MvvmLight.Command;
 
 namespace WPFMentorshipProject
 {
-    public class Federation
-    {
-        public byte Id { get; set; }
-
-        public Country FederationName { get; set; }
-    }
+	public class MainWindowViewModel : ViewModelBase
+	{
+		
+	}
 }
